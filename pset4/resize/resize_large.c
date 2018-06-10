@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
 
 #include "bmp.h"
 
@@ -170,27 +169,4 @@ RGBTRIPLE* multiply_line(RGBTRIPLE* line, int width, double n){
         }
     }
     return result_line;
-}
-
-void print_triple(RGBTRIPLE* line, int length){
-    for (int i = 0; i < length; i++){
-        printf(
-                "%.2x%.2x%.2x ",
-                line[i].rgbtRed,
-                line[i].rgbtGreen,
-                line[i].rgbtBlue
-        );
-    }
-    printf("\n");
-}
-
-int translate_indexes(int len_1, int len_2, int index_1){
-    float mult = len_1 / len_2;
-    int index_2 = (int)round_to_precision(mult * len_2, 2);
-    return index_2;
-
-}
-
-double round_to_precision(double num, int precision){
-    return round(num * pow(10.0, (double)precision)) / pow(10.0, (double)precision);
 }
