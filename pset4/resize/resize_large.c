@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 #include "bmp.h"
 
@@ -181,4 +182,15 @@ void print_triple(RGBTRIPLE* line, int length){
         );
     }
     printf("\n");
+}
+
+int translate_indexes(int len_1, int len_2, int index_1){
+    float mult = len_1 / len_2;
+    int index_2 = (int)round_to_precision(mult * len_2, 2);
+    return index_2;
+
+}
+
+double round_to_precision(double num, int precision){
+    return round(num * pow(10.0, (double)precision)) / pow(10.0, (double)precision);
 }
