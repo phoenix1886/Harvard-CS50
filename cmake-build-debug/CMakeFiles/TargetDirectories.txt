@@ -1,0 +1,3 @@
+/Users/KirillMaslov/Documents/Projects/CS50/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/KirillMaslov/Documents/Projects/CS50/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/KirillMaslov/Documents/Projects/CS50/cmake-build-debug/CMakeFiles/pset4/resize/resize_large.dir

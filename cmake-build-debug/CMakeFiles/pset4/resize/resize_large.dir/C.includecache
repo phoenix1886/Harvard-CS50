@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/KirillMaslov/Documents/Projects/CS50/pset4/resize/bmp.h
+stdint.h
+-
+
+/Users/KirillMaslov/Documents/Projects/CS50/pset4/resize/resize_large.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+bmp.h
+/Users/KirillMaslov/Documents/Projects/CS50/pset4/resize/bmp.h
+
