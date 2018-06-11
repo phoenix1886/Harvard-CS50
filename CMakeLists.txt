@@ -1,1 +1,0 @@
-add_executable(pset4/resize/resize_large pset4/resize/resize_large.c)

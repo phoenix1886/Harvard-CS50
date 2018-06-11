@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pset4/resize/resize_large.dir/pset4/resize/resize_large.c.o  -o pset4/resize/resize_large 
